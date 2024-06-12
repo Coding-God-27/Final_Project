@@ -1,0 +1,13 @@
+.apartment-card {
+    transition: transform 0.2s;
+  }
+  
+  .apartment-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .apartment-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  

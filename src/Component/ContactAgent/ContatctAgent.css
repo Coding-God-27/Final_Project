@@ -1,0 +1,74 @@
+/* ContactSection.css */
+
+.container-xxxl {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .contact-section .bg-light {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section .btn-primary {
+    background-color: #00b98e;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-section .btn-primary:hover {
+    background-color: #009973;
+  }
+  
+  .contact-section .btn-dark {
+    background-color: #333;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-section .btn-dark:hover {
+    background-color: #1a1a1a;
+  }
+  
+  .contact-section .img-fluid {
+    border-radius: 8px;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .modal-body p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .modal-footer .btn-primary {
+    background-color: #00b98e;
+ 
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-footer .btn-primary:hover {
+    background-color: #009973;
+  }
+  .contact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .contact-section .btn {
+    margin-top: 20px;
+  }
+  

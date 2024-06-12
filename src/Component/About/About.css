@@ -1,0 +1,66 @@
+.about-container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(17, 16, 16, 0.1);
+    transition: all 1s ease; /* Transition for the container */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: all 1s ease; /* Transition for the section */
+  }
+  
+  .section-left .section-content {
+    order: 2;
+  }
+  
+  .section-right .section-content {
+    order: 1;
+  }
+  
+  .section-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .section-image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Example hover effects to demonstrate the transition */
+  .section:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  

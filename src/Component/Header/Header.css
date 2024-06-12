@@ -1,0 +1,14 @@
+.header {
+    padding-top: 100px; 
+    margin-top: 40px;/* Increase padding-top to ensure it pushes the header content below the navbar */
+  }
+  
+  .navbar {
+    z-index: 1000; /* Ensure the navbar stays above other elements */
+  }
+  
+  .carousel-item img {
+    max-height: 500px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
